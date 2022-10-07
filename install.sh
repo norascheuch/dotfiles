@@ -40,9 +40,6 @@ rm $HOME/.gitignore_global
 ln -s $DOTFILES_ROOT/.gitignore_global $HOME/.gitignore_global
 git config --global core.excludesfile $HOME/.gitignore_global
 
-echo "Turn on GPG signing of commits"
-git config --global commit.gpgsign true
-
 echo "Reloading zsh"
 source $HOME/.zshrc
 
